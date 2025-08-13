@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1754499521611,
+    "tipo": "imagen",
+    "archivo": "/media/producto-001.jpg",
+    "nombre": "Disfraz de gaucho",
+    "precio": 25000
+  },
+  {
+    "id": 1754499534969,
+    "tipo": "video",
+    "archivo": "/media/video-001.mp4",
+    "nombre": "Ojales",
+    "precio": 500
+  },
+  {
+    "id": 1754502212916,
+    "tipo": "imagen",
+    "archivo": "/media/producto-002.jpg",
+    "nombre": "Bolso",
+    "precio": 15000
+  },
+  {
+    "id": 1754502577371,
+    "tipo": "imagen",
+    "archivo": "/media/producto-004.jpg",
+    "nombre": "Delantal de kitty",
+    "precio": 5000
+  },
+  {
+    "id": 1754505695818,
+    "tipo": "imagen",
+    "archivo": "/media/producto-005.jpg",
+    "nombre": "Delantal de pepa",
+    "precio": 5000
+  },
+  {
+    "id": 1755052586350,
+    "tipo": "imagen",
+    "archivo": "/media/producto-023.jpg",
+    "nombre": "camisa",
+    "precio": 15000
+  },
+  {
+    "id": 1755054060410,
+    "tipo": "imagen",
+    "archivo": "/media/producto-027.jpg",
+    "nombre": "algo",
+    "precio": 10000
+  },
+  {
+    "id": 1755054549746,
+    "tipo": "imagen",
+    "archivo": "/media/producto-028.jpg",
+    "nombre": "pantalon",
+    "precio": 10000
+  },
+  {
+    "id": 1755055038832,
+    "tipo": "imagen",
+    "archivo": "/media/producto-030.jpg",
+    "nombre": "guardapolvos",
+    "precio": 15000
+  }
+]

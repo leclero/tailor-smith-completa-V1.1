@@ -1,0 +1,23 @@
+#carrito-flotante {
+position: fixed;
+top: 70px;
+right: 10px;
+width: 250px;
+background: white;
+border: 1px solid #ccc;
+padding: 10px;
+z-index: 9999;
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.producto-carrito {
+display: flex;
+justify-content: space-between;
+margin-bottom: 5px;
+}
+
+.producto-carrito button {
+width: 25px;
+height: 25px;
+font-weight: bold;
+}

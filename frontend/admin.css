@@ -1,0 +1,79 @@
+body {
+font-family: Arial;
+background: #f4f4f4;
+padding: 20px;
+}
+
+h1, h2 {
+text-align: center;
+}
+
+#login-section {
+
+max-width: 400px;
+margin: 50px auto;
+background: white;
+padding: 20px;
+text-align: center;
+border: 1px solid #ccc;
+} 
+
+#login-section input {
+display: block;
+margin: 10px auto;
+padding: 10px;
+width: 80%;
+}
+
+#zona-subida {
+border: 2px dashed #999;
+background: #fff;
+padding: 30px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+#zona-subida button {
+font-size: 1.2em;
+margin: 10px;
+padding: 10px 20px;
+}
+
+.elemento-admin {
+display: flex;
+align-items: center;
+gap: 10px;
+background: #fff;
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.elemento-admin img,
+.elemento-admin video {
+width: 100px;
+}
+
+input[type="text"],
+input[type="number"] {
+width: 180px;
+padding: 5px;
+}
+
+input::placeholder {
+color: #666;
+}
+
+button {
+font-size: 1em;
+}
+
+.btn-salir {
+background-color: #dc3545;
+color: white;
+border: none;
+padding: 10px 20px;
+margin: 20px 0;
+font-size: 1.2em;
+cursor: pointer;
+}
