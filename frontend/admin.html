@@ -5,7 +5,6 @@
 <title>Admin | Tailor Smith</title>
 <link rel="stylesheet" href="admin.css">
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<!-- Configuración global -->
 <script src="config.js"></script>
 </head>
 <body>
@@ -16,17 +15,23 @@
 <input type="password" id="clave" placeholder="Contraseña">
 <button onclick="login()">Ingresar</button>
 <p id="mensaje-login"></p>
-<!-- 🔙 Volver a tienda -->
-<button onclick="window.location.href='index.html'">Volver a Tienda</button>
+
+<!-- Botón volver -->
+<button onclick="window.location.href='index.html'" style="margin-top:20px; background:#6c757d; color:white; padding:10px 20px;">
+    🏠 Volver a la Tienda
+</button>
 </div>
 
 <div id="admin-panel" style="display:none;">
 <h1>Gestión de Productos y Videos</h1>
 
+<!-- Botón volver -->
+<button onclick="salirAdmin()" style="margin-bottom:20px; background:#0d6efd; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">
+    🔙 Volver a Tienda
+</button>
+
 <!-- Subida -->
-<section id="zona-subida"
-        ondrop="manejarDrop(event)"
-        ondragover="event.preventDefault()">
+<section id="zona-subida" ondrop="manejarDrop(event)" ondragover="event.preventDefault()">
     <p>Arrastra aquí imágenes o videos, o usa el botón.</p>
     <input type="file" id="input-archivo" accept="image/*,video/mp4">
     <button onclick="subirArchivo()">Subir Archivo</button>

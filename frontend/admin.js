@@ -1,3 +1,5 @@
+const backendURL = window.BACKEND_URL;
+
 function login() {
     const usuario = document.getElementById('usuario').value;
     const clave = document.getElementById('clave').value;
@@ -61,17 +63,17 @@ function renderizarElementos() {
 
         div.innerHTML = `
         ${media}
-        <div style="display: flex; flex-direction: column; margin-bottom: 10px;">
+        <div style="display:flex;flex-direction:column;margin-bottom:10px;">
             <label><strong>Nombre o Descripción:</strong></label>
-            <input type="text" placeholder="Nuevo elemento" value="${elem.nombre}"
-            onfocus="if(this.value==='Nuevo elemento')this.value='';"
-            onblur="if(this.value==='')this.value='Nuevo elemento';"
-            onchange="elementos[${index}].nombre = this.value">
+            <input type="text" value="${elem.nombre || "Nuevo elemento"}"
+                onfocus="if(this.value==='Nuevo elemento'){this.value='';}"
+                onblur="if(this.value===''){this.value='Nuevo elemento';}"
+                onchange="elementos[${index}].nombre = this.value">
         </div>
-        <div style="display: flex; flex-direction: column; margin-bottom: 10px;">
+        <div style="display:flex;flex-direction:column;margin-bottom:10px;">
             <label><strong>Precio o Valor:</strong></label>
             <input type="number" value="${elem.precio}"
-            onchange="elementos[${index}].precio = parseFloat(this.value)">
+                onchange="elementos[${index}].precio = parseFloat(this.value)">
         </div>
         <button onclick="elementos.splice(${index},1); renderizarElementos()">❌ Eliminar</button>
         `;
