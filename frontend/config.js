@@ -1,3 +1,3 @@
 // 🌍 Configuración global
-const backendURL = "http://192.168.0.141:3000";  
+const backendURL = "https://tailor-smith-completa-v1-1.onrender.com";  
 // ⚡ Cuando cambies la IP del backend, solo modificás acá.
