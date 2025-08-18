@@ -1,4 +1,4 @@
-const backendURL = window.BACKEND_URL;
+const backendURL = window.backendURL;
 
 function login() {
     const usuario = document.getElementById('usuario').value;
