@@ -12,6 +12,13 @@ function login() {
         document.getElementById('mensaje-login').textContent = "Usuario o contraseña incorrectos.";
     }
 }
+// Permitir login con tecla Enter
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        login();
+    }
+});
+
 
 let elementos = [];
 
