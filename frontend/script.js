@@ -1,4 +1,4 @@
-const backendURL = window.backendURL; // viene de config.js
+// const backendURL = window.backendURL; // viene de config.js
 
 let elementos = [];
 let carrito = [];
